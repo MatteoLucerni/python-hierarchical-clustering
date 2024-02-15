@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.datasets._samples_generator import make_blobs
-from scipy.cluster.hierarchy import linkage, dendrogram, inconsistent
+from scipy.cluster.hierarchy import linkage, dendrogram
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.metrics import silhouette_score
 
